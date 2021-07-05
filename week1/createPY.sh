@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {6..10}
+for i in {1..10}
 do
-  touch "1-${i}_유정섭_20210705.py"
+  touch "2-${i}_유정섭_20210705.py"
 done
