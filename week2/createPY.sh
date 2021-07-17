@@ -1,5 +1,8 @@
 #!/bin/bash
-for i in {1..10}
+read -p "Day NO: " dayN
+read -p "Start End: " start end
+
+for i in $(eval echo "{$start..$end}")
 do
-  touch "7-${i}_유정섭_20210713.py"
+  touch "${dayN}-${i}_유정섭_$(date '+%Y%m%d').py"
 done
